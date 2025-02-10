@@ -31,8 +31,8 @@ const  Hero = () => {
           </div>
         </div>
         {/* relative */}
-        <div className=" relative flex justify-between items-center gap-4 -mt-40 w-full z-0  ">
-          <div className=" relative w-[35%]  -ml-[4.5rem] z-10">
+        <div className=" relative flex justify-between items-center gap-4 lg:-mt-40 w-full z-0  ">
+          <div className=" relative w-[35%]  lg:-ml-[4.5rem] z-10">
             <Image
               src="/images/walletCash.png"
               alt="cash"
