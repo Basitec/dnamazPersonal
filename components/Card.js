@@ -58,9 +58,9 @@ const Card = () => {
     fetchBlog();
   }, []);
 
-  // if (!threeBlog) {
-  //   return <div></div>;
-  // }
+  if (!threeBlog) {
+    return <div></div>;
+  }
 
   const focus = [
     {
